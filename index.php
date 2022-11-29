@@ -28,6 +28,12 @@
                     </ul>
                 </div>
             </div>
+            <div class="row justify-content-center mt-4">
+                <div class="col-8 text-center">
+                    <input type="text" placeholder="New Task" class="me-2" v-model="newTask">
+                    <button class="btn btn-primary" @click="addTask"> Add </button>
+                </div>
+            </div>
         </div>
     </div>
 
