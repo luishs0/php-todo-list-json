@@ -19,7 +19,16 @@
 <body>
 
     <div id="app">
-
+        <div class="container">
+            <h1 class="text-center mt-5">To do List</h1>
+            <div class="row justify-content-center mt-3">
+                <div class="col-8">
+                    <ul class="list-group">
+                        <li class="list-group-item" v-for="todo in todoList">{{ todo.text }}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="./js/script.js"></script>
